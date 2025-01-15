@@ -1,0 +1,9 @@
+
+.fitem{background-color: red;
+border:2px solid black;margin:12px;width: 120px;
+height: 120px;}
+
+.fcontainer{display: flex;border:2px solid green;height: 400px;}
+.item1{align-self:flex-end;}
+.item4{order:4;flex-grow: 2;}
+.item2{flex-shrink:2;}

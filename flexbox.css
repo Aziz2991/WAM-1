@@ -1,0 +1,9 @@
+body{display: flex;
+border:8px solid black;
+min-height: 800px;gap:20px;flex-wrap:wrap;justify-content: center;
+align-items: center;}
+
+
+.box{height: 200px;
+width: 200px;background-color: blueviolet;
+font-size: 40px;}

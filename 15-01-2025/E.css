@@ -1,0 +1,70 @@
+*{margin:0;
+padding:0;
+box-sizing: border-box;
+
+font-family: "Roboto", serif;
+font-optical-sizing: auto;
+font-weight: 100;
+font-style: normal;
+font-variation-settings:
+  "wdth" 100;
+
+
+}
+
+.site-header{width:100%;
+height: 100vh;
+background: linear-gradient(57deg, #00c6a7, #1e4d92);
+clip-path: polygon(0% 0%,100% 0%,100% 80%,0% 100%);}
+
+nav{width:100%;height: 100px;display: flex;color:white;
+}
+
+.logo{width:50%;height: 100px;display: flex;
+align-items: center;}
+
+.logo h1{padding-left:50px;}
+
+.menu{width:50%;height: 100px;}
+
+.menu ul li{list-style: none;font-size: 12px;font-weight: bold;
+text-transform: uppercase;}
+
+.menu ul{width:100%;height: 100px;display: flex;
+flex-direction: row;justify-content: space-around;align-items: center;}
+
+section{display: flex;}
+
+.leftside{width:50%;height: auto;
+overflow:hidden;margin-top:20px;}
+
+.leftside img{width: 600px;
+height: 500px;border: 2px solid red;border-radius: 50px;}
+
+.rightside{width: 50%;
+height: 300px;color:white;text-align: center;
+margin-top: 100px;}
+
+.rightside h1{font-size: 50px;font-weight: 900;}
+.rightside p{font-size: 18px;padding:30px 0px;}
+
+.rightside button{font-size: 17px;
+font-weight: bold; color:white;text-transform: uppercase;
+background: linear-gradient(57deg, #00c6a7, #1e4d92);border-radius: 4px;padding:20px 35px;}
+
+.rightside button:hover {background-color: yellowgreen;}
+
+@media only screen and (max-width:500px)
+{
+    .site-header{flex-direction: column;}
+
+    .log{justify-content: center;padding:20px 0px;}
+
+    .menu ul{flex-wrap:wrap;display: flex-start;}
+
+    .leftside img{position: relative;
+        top:400px;}
+
+        .leftside{position: relative;
+        top:450px;flex-wrap:wrap;}
+}
